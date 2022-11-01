@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/usuarios-contraseña.css" rel="stylesheet" />
+    <link href="./css/usuarios-contraseña.cs" rel="stylesheet" />
     <link rel="icon" type="image/png" href="./img/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +27,8 @@
 </script>
 <body>
     <main class="tuconcierto__cuerpo">
-        <div class="cadastro-cabecalho">
-            <img src="./img/logo-tu-concierto.png" alt="Logo tu concierto" class="registry-header__logo">
+        <div class="tuconcierto__cuerpo__div">
+            <img class="tuconcierto__logo" src="./img/logo-tu-concierto.png" alt="Tu Concierto">
             <h1 class="registry-header__title">Tu Concierto</h1>
         </div>
         <nav class="tuconcierto__menu">
@@ -41,60 +41,60 @@
                         href="./proyecto.html">Proyecto</a></li>
             </ul>
         </nav>
-        <section class="cartao">
-            <h2 class="card__title">Completa tu registro</h2>
+        <section class="tuconcierto__usuarios">
+            <h2 class="tuconcierto__title">Completa tu registro</h2>
             <form action="./registro_concluido.html" class="formulario flex flex--column">
                 <fieldset>
-                    <legend class="form__label">Información básica</legend>
+                    <legend class="tuconcierto__">Información básica</legend>
                     <div class="input-container input-container--invalid">
-                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
-                        <label class="input-label" for="name">Nombre</label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                        <input name="name" id="name" class="tuconcierto__input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                        <label class="tuconcierto__input-label" for="name">Nombre</label>
+                        <span class="tuconcierto__input-message-error">Este campo no es valido</span>
                     </div>
-                    <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
-                        <label class="input-label" for="email">Email</label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                    <div class="tuconcierto__input-container">
+                        <input name="email" id="email" class="tuconcierto__input" type="email" placeholder="Email" required data-tipo="email">
+                        <label class="tuconcierto__input-label" for="email">Email</label>
+                        <span class="tuconcierto__input-message-error">Este campo no es valido</span>
                     </div>
-                    <div class="input-container">
-                        <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
+                    <div class="tuconcierto__input-container">
+                        <input name="password" id="password" class="tuconcierto__input" type="password" placeholder="Contraseña"
                             required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
                             title="Mínimo 6 caracteres máximo 12. Debe contener 1 letra minúscula. 1 letra mayúscula. 1 número. No puede contener carácteres especiales." data-tipo="password">
-                        <label class="input-label" for="password">Contraseña</label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                        <label class="tuconcierto__input-label" for="password">Contraseña</label>
+                        <span class="tuconcierto__input-message-error">Este campo no es valido</span>
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="form__label">Información personal</legend>
-                    <div class="input-container">
-                        <input name="birth" id="birth" class="input" type="date" placeholder="Fecha de nacimento"
+                    <legend class="tuconcierto__form__label">Información personal</legend>
+                    <div class="tuconcierto__input-container">
+                        <input name="birth" id="birth" class="tuconcierto__input" type="date" placeholder="Fecha de nacimento"
                             required data-tipo="nacimiento">
-                        <label class="input-label" for="birth">Fecha de nacimiento </label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                        <label class="tuconcierto__input-label" for="birth">Fecha de nacimiento </label>
+                        <span class="tuconcierto__input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="input-container">
-                        <input name="phoneNumber" id="phoneNumber" class="input" type="text"
+                        <input name="phoneNumber" id="phoneNumber" class="tuconcierto__input" type="text"
                             placeholder="Número telefónico" pattern="\d{10}" required minlength="10"  maxlength="13" data-tipo="numero">
-                        <label class="input-label" for="phoneNumber">Número telefónico</label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                        <label class="tuconcierto__input-label" for="phoneNumber">Número telefónico</label>
+                        <span class="tuconcierto__input-message-error">Este campo no es valido</span>
                     </div>
                 </fieldset>
                 <fieldset>
                    
-                    <div class="input-container">
-                        <input name="city" id="city" class="input" type="text" placeholder="Ciudad"  pattern="\[s\S]{2,40}" required data-tipo="ciudad">
-                        <label class="input-label" for="city">Ciudad</label>
-                        <span class="input-message-error">Este campo no es valido</span>
+                    <div class="tuconcierto__input-container">
+                        <input name="city" id="city" class="tuconcierto__input" type="text" placeholder="Ciudad"  pattern="\[s\S]{2,40}" required data-tipo="ciudad">
+                        <label class="tuconcierto__input-label" for="city">Ciudad</label>
+                        <span class="tuconcierto__input-message-error">Este campo no es valido</span>
                     </div>
                    
                 </fieldset>
-                <button class="button">Registrar</a>
+                <button class="tuconcierto__button">Registrar</a>
             </form>
         </section>
     </main>
     <!--<script src="./assets/js/validaciones.js"></script>-->
     <script src="./assets/js/app.js" type="module"></script>
-    <footer class=tuconcierto__footer">
+    <footer class="tuconcierto__footer">
         &copy Tu Concierto 2022.
     </footer>
 </body>
