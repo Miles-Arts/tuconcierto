@@ -1,0 +1,63 @@
+.tuconcierto__cuerpo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: grey; 
+}
+
+.tuconcierto__cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height:100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tuconcierto__menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tuconcierto__menu__lista {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.tuconcierto__logo {
+    width: 150px;
+    height: 150px
+}
+
+.tuconcierto__seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.tu__concierto__imagen {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tuconcierto__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: black;
+    height: 50px
+
+}
