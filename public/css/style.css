@@ -74,14 +74,20 @@
 }
 
 .tuconcierto__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betwee;
+    margin-left: 200px;
     width: 150px;
-    height: 150px
+    height: 150px;
+    border-radius: 20px;
 }
 
 .tuconcierto__seccion {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
 
 }
@@ -100,6 +106,8 @@
     flex-direction: column;
     text-align: center;
     text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -113,6 +121,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 .tuconcierto__footer {
@@ -126,3 +135,7 @@
     font-size: 20px;
 
 }
+
+/*@media screen and (min-width: 768px) {
+   
+}*/

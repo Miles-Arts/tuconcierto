@@ -5,6 +5,7 @@
     flex-direction: column;
   margin-top: 40px;
   
+  
 }
 
 .tuconcierto__title {
@@ -38,11 +39,12 @@
 
 .tuconcierto__button {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     width: 200px;
     height: 30px;
 }
