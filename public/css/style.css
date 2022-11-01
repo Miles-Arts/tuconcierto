@@ -1,5 +1,5 @@
 .tuconcierto__cuerpo {
-    font-family:  "Montserrat" , sans-serif;
+    font-family: "Montserrat", sans-serif;
     height: 100%;
     width: 100%;
     display: flex;
@@ -58,7 +58,7 @@
 .tuconcierto__menu__link.active {
     color: #333333;
     font-weight: bold;
-    
+
 }
 
 
@@ -70,7 +70,7 @@
     text-transform: capitalize;
     padding-left: 1rem;
     padding-right: 1rem;
-    
+
 }
 
 .tuconcierto__logo {

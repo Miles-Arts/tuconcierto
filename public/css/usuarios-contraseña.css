@@ -3,9 +3,9 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-  margin-top: 40px;
-  
-  
+    margin-top: 40px;
+
+
 }
 
 .tuconcierto__title {
@@ -52,4 +52,3 @@
 .tuconcierto__footer {
     background: black;
 }
-
