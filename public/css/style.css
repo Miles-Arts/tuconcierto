@@ -1,10 +1,21 @@
 .tuconcierto__cuerpo {
+    font-family:  "Montserrat" , sans-serif;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background: grey;
+}
+
+
+.tuconcierto__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .tuconcierto__cabecera {
@@ -88,16 +99,20 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    text-align: justify;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .tu__concierto__imagen {
-    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .tuconcierto__footer {
